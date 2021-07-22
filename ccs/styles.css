@@ -1,0 +1,74 @@
+
+/*Enlaces*/
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+  a{
+    text-decoration:  none;
+    color:  black;
+    font-size: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+    }
+
+  a:hover{
+    border-bottom: solid #FFE194;
+    font-weight: bolder; 
+    }
+/*body*/
+ body{
+      background-color: #E8F0F2;
+      }
+/*header y logo*/
+  header{
+    background-color: #39A2DB;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    }
+
+  nav{
+    display: inline-block;
+    padding: 10px;
+    }
+
+  .logo{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    }
+
+  nav li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+/*footer*/
+  footer{
+    width: 100%;
+    background-color: #A2DBFA;
+    position: fixed;
+    bottom: 0px;
+    }
+
+  footer li{
+    display: inline-block;
+    position: relative;
+    }
+
+  .footer__redes-sociales{
+    margin: auto;
+    text-align: center;
+    }
+
+
+  .footer__redes-sociales li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    }
+
+
